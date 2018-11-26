@@ -3,10 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "can-use-dom": "^0.1.0",
     "core-js": "^2.5.7",
+    "google-maps-infobox": "^2.0.0",
+    "invariant": "^2.2.4",
+    "lodash": "^4.17.11",
+    "marker-clusterer-plus": "^2.1.4",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "scriptjs": "^2.5.9",
+    "warning": "^4.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
