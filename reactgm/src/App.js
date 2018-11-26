@@ -15,10 +15,6 @@ class App extends Component {
     this.setState({ vin });
   }
 
-  handleClose = () => {
-    gm.system.closeApp();
-  };
-
   render() {
     return (
       <React.Fragment>
@@ -26,9 +22,6 @@ class App extends Component {
       //   <h2>Build Test</h2>
       //   <div>VIN: {this.state.vin}</div> */}
         <Router />
-        <button onClick={this.handleClose} className="float-right">
-          Close
-        </button>
         {/* </div> */}
       </React.Fragment>
     );

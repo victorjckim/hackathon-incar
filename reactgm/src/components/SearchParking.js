@@ -12,7 +12,9 @@ class SearchParking extends React.Component {
     return (
       <React.Fragment>
         <ViewMap />
-        <button>Search</button>
+        <Link to="/directions">
+          <button type="button">Navigate</button>
+        </Link>
       </React.Fragment>
     );
   }
