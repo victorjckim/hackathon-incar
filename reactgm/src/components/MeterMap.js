@@ -719,6 +719,9 @@ class MeterMap extends React.Component {
                         <strong>Policy:</strong> {meter.parkingpolicy}
                       </p>
                       <p>
+                        <strong>Rate(p/h):</strong> {meter.raterange}
+                      </p>
+                      <p>
                         <strong>Time Limit:</strong> {meter.timelimit}
                       </p>
                     </div>
